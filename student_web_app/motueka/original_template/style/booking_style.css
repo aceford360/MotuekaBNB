@@ -1,0 +1,111 @@
+body {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar {
+    background: #111827;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.item_icons {
+    flex-grow: 1;
+}
+
+.list-contents ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.list-contents ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.list-contents ul li img {
+    width: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.list-contents ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#bookingtable {
+    margin-left: 315px;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; 
+}
+
+#bookingdetails {
+    margin-left: 315px;
+    padding: 20px;
+}
+
+#editbooking {
+    margin-left: 315px;
+    padding: 20px;
+}
+
+#makebooking {
+    margin-left: 315px;
+    padding: 20px;
+}
+
+#deletebooking {
+    margin-left: 315px;
+    padding: 20px;
+}
+
