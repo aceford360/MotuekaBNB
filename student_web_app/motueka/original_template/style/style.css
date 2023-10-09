@@ -2,14 +2,16 @@ html {
   height: 100%;
 }
 
-*
-{ margin: 0;
-  padding: 0;}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+body {
+  font: normal 1em 'trebuchet ms', arial, sans-serif; 
   background: #F0EFE2 url(background.png) repeat;
-  color: #000;}
+  color: #000;
+}
 
 p
 { padding: 0 0 20px 0;
@@ -291,3 +293,13 @@ table tr td
 { background: #F0EFE2;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+.form_settings input[type="text"],
+.form_settings input[type="password"],
+.form_settings select {
+  padding: 10px; 
+  font-size: 1em;
+  width: 100%;
+}
+
+
